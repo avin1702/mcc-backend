@@ -2,4 +2,8 @@
 ```clone the project```
 
 # Run
+
+```npm i```
+
+
 ```npm start```
