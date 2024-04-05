@@ -3,6 +3,7 @@
     - db.js
   - controllers
     - authController.js
+    - employeeControllers.js
     - scheduleController.js
   - models
     - Employee.js
@@ -11,8 +12,12 @@
     - index.js
   - routes
     - authRoutes.js
+    - employeeRoutes.js
     - scheduleRoutes.js
+  - schemas
+    - authSchema.js
   - services
     - emailService.js
     - cronJob.js
+    - adminCreate.js
   - app.js
