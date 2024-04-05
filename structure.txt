@@ -1,0 +1,18 @@
+- src
+  - config
+    - db.js
+  - controllers
+    - authController.js
+    - scheduleController.js
+  - models
+    - Employee.js
+    - Schedule.js
+    - Admin.js
+    - index.js
+  - routes
+    - authRoutes.js
+    - scheduleRoutes.js
+  - services
+    - emailService.js
+    - cronJob.js
+  - app.js
