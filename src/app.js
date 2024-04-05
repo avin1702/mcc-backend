@@ -14,7 +14,6 @@ const {logRequests} = require('./middlewares/logMiddleware')
 const cors = require('cors');
 
 
-console.log("logging env var ",process.env.JWT_SECRET)
 
 cronJob.startCronJob();
 

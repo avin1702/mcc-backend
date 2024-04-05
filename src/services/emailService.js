@@ -1,6 +1,5 @@
 const nodemailer = require('nodemailer');
 
-console.log(Buffer.from(process.env.NODEMAILER_PASSWORD, 'base64').toString('utf-8'))
 const transporter = nodemailer.createTransport({
   service: 'gmail',
   auth: {
